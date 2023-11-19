@@ -8,7 +8,8 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleRegister = (e) => {
+
+  const handleRegister = ( e ) => {
     e.preventDefault();
     // You can add your registration logic here, e.g., making an API request
 
